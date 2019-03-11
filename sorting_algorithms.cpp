@@ -41,10 +41,20 @@ int* bubble_sort(int* array, unsigned long size)
 
 int* insertion_sort(int* array, unsigned long size)
 {
+  unsigned long j;
+  int temp;
 
-}
+  for(unsigned long i = 0; i < size; i++)
+  {
+      j = i;
+      while((j > 0) && (array[j - 1] > array[j]))
+      {
+          temp = array[j - 1];
+          array[j - 1] = array[j];
+          array[j] = temp;
+          j--;
+      }
+  }
 
-void init_random()
-{
-
+  return array;
 }
