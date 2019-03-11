@@ -12,17 +12,28 @@
 */
 #include "stopwatch.h"
 
+clock_t start;
+clock_t stop;
+bool is_running = false;
+
 void start_stopwatch()
 {
-
+  start = clock();
+  is_running = true;
 }
 
 void stop_stopwatch()
 {
-
+  stop = clock();
+  is_running = false;
 }
 
 float elapsed_time()
 {
-  return 0.0;
+  if(is_running)
+  {
+    stop = clock();
+  }
+
+  return (float)(stop - start) / CLOCKS_PER_SEC;
 }

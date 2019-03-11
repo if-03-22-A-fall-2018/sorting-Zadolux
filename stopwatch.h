@@ -12,6 +12,8 @@
  */
 #ifndef ___STOPWATCH_H
 #define ___STOPWATCH_H
+#include <time.h>
+#include <stdbool.h>
 
 /**
 *** @file stopwatch.h
