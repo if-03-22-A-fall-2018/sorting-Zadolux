@@ -1,5 +1,5 @@
 /*----------------------------------------------------------
- *				HTBLA-Leonding / Klasse: <your class name here>
+ *				HTBLA-Leonding / Klasse: 2AHIF
  * ---------------------------------------------------------
  * Exercise Number: 0
  * File:			sorting_algorithms.h
@@ -7,7 +7,7 @@
  * Due Date:		#due#
  * ----------------------------------------------------------
  * Description:
- * <Add description>
+ * Bubble sort and insertion sort
  * ----------------------------------------------------------
  */
 #ifndef ___SORTING_ALGORITHMS_H

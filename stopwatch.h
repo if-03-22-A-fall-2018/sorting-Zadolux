@@ -1,5 +1,5 @@
 /*----------------------------------------------------------
- *				HTBLA-Leonding / Klasse: <your class name here>
+ *				HTBLA-Leonding / Klasse: 2AHIF
  * ---------------------------------------------------------
  * Exercise Number: 0
  * File:			stopwatch.h
